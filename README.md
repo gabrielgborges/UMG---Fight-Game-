@@ -5,6 +5,10 @@ Including implementations for every single programming pattern in the book Game 
 
 UMG serves as both a technical learning journey and a platform to explore creative game mechanics, including a dynamic combo system built from scratch to empower game designers with easy editing tools.
 
+## Folders
+
+The folders in this project are specially divided by programming pattern in order to clarify and specify the knowledge you are looking for.
+
 ## Technical Highlights:
 All Game Programming Patterns Applied: Each core system was built using different architectural patterns from Game Programming Patterns by Robert Nystrom, offering practical insights into scalable game development.
 
@@ -15,7 +19,6 @@ All Game Programming Patterns Applied: Each core system was built using differen
 - No Plugins Used: All gameplay systems were built from the ground up, emphasizing hands-on learning and deep technical understanding.
 
 Explore the trailer: https://www.youtube.com/watch?v=ag30bykzXjU
-
 
 ## Getting started
 
@@ -46,11 +49,6 @@ K - Hard hit
 
 L - Long hit
 
-
-## Folders
-
-The folders in this project are specially divided by programming pattern in order to clarify and specify the knowledge you are looking for.
-
 ## Contact me
 
-Feel free to contact me if you want to make part of this project or have any comments/suggestions: gabriel.goncalves.borges@gmail.com
+Feel free to contact me if you want to make part of this project or have any comments/suggestions
