@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcd708a0b7ce4684581bc13e6da3272d, type: 3}
+  m_Name: Bear
+  m_EditorClassIdentifier: 
+  _previewSprite: {fileID: 21300000, guid: f67a3476bd447d443a3dd42dd4dfde0b, type: 3}
+  _prefab: {fileID: 3304242408842421780, guid: 0fb7e4d7395de2d4ca5b66d6c8afabbb, type: 3}
+  _maxLife: 100
+  _damage: 5

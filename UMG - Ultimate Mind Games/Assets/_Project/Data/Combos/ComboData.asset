@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05ba02d84c014ba42bfafe1042f693b9, type: 3}
+  m_Name: ComboData
+  m_EditorClassIdentifier: 
+  _attacksAnimationSpeed: 2
+  _comboRoot:
+    Command: none
+    ActivationStartFrame: 0
+    ActivationEndFrame: 0
+    HitData: {fileID: 0}
+    Index: 50
+    Children:
+    - Command: Punch
+      ActivationStartFrame: 15
+      ActivationEndFrame: 35
+      HitData: {fileID: 11400000, guid: 25217396a2b783d4e84013e4d04ba8d9, type: 2}
+      Index: 10
+      Children:
+      - Command: Punch
+        ActivationStartFrame: 15
+        ActivationEndFrame: 35
+        HitData: {fileID: 11400000, guid: 25217396a2b783d4e84013e4d04ba8d9, type: 2}
+        Index: 9
+        Children:
+        - Command: Punch
+          ActivationStartFrame: 83
+          ActivationEndFrame: 85
+          HitData: {fileID: 11400000, guid: fdc53af404733c549bcd32d6c4a85d0c, type: 2}
+          Index: 7
+          Children: []
+      - Command: SoftPunch
+        ActivationStartFrame: 83
+        ActivationEndFrame: 85
+        HitData: {fileID: 11400000, guid: bd41be3829f15f84d8be158d6ab7094a, type: 2}
+        Index: 8
+        Children: []
+    - Command: HardPunch
+      ActivationStartFrame: 30
+      ActivationEndFrame: 50
+      HitData: {fileID: 11400000, guid: e166520d11072204eb90560eda527b85, type: 2}
+      Index: 30
+      Children: []
+    - Command: SoftPunch
+      ActivationStartFrame: 20
+      ActivationEndFrame: 68
+      HitData: {fileID: 11400000, guid: bd41be3829f15f84d8be158d6ab7094a, type: 2}
+      Index: 49
+      Children:
+      - Command: SoftPunch
+        ActivationStartFrame: 20
+        ActivationEndFrame: 68
+        HitData: {fileID: 11400000, guid: bd41be3829f15f84d8be158d6ab7094a, type: 2}
+        Index: 48
+        Children:
+        - Command: HardPunch
+          ActivationStartFrame: 80
+          ActivationEndFrame: 85
+          HitData: {fileID: 11400000, guid: fdc53af404733c549bcd32d6c4a85d0c, type: 2}
+          Index: 47
+          Children: []
+        - Command: Punch
+          ActivationStartFrame: 80
+          ActivationEndFrame: 85
+          HitData: {fileID: 11400000, guid: e166520d11072204eb90560eda527b85, type: 2}
+          Index: 46
+          Children: []

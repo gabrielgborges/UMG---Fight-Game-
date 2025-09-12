@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b14303ab2145d8d4c8047142d74f6073, type: 3}
+  m_Name: AvailableCombatentsData
+  m_EditorClassIdentifier: 
+  _combatents:
+  - {fileID: 11400000, guid: e6263521cad403d42a6fb7dc21c5c6b8, type: 2}
+  - {fileID: 11400000, guid: 3e4f2d6e20665c44f995c59399f866be, type: 2}
+  - {fileID: 11400000, guid: 6648ebe34a36e684f95cc469e22128fe, type: 2}
