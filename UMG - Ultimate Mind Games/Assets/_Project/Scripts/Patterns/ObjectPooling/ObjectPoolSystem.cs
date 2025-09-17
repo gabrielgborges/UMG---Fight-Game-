@@ -61,8 +61,7 @@ public class ObjectPoolSystem : MonoBehaviour
             }
 
             if (objectConfiguration.Scene == currentScene.name
-                && objectConfiguration.SpanwAtSceneStart
-                && !_objectsSpawnedById.ContainsKey(objectSpawnedId))
+                && objectConfiguration.SpanwAtSceneStart)
             {
                 Debug.Log("spawned new copies");
                 _objectsSpawnedById.Add(objectSpawnedId, new List<ObjectPooledBase>());

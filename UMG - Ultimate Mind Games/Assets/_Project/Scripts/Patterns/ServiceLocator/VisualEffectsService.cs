@@ -26,8 +26,10 @@ public class VisualEffectsService : BaseService, IVisualEffectsService
             if (vfxByType.VFXType == visualEffect)
             {
                 return _objectPool.SpawnObject(vfxByType.VFXObject) as VFXObject;
+
             }
         }
+
         return null;
     }
     
