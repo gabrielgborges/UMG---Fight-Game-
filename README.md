@@ -1,3 +1,5 @@
+Coding design patterns can be found at Assets/_Project/Scripts/Patterns -> https://github.com/gabrielgborges/UMG---Fight-Game-/tree/main/UMG%20-%20Ultimate%20Mind%20Games/Assets/_Project/Scripts/Patterns
+
 A fast-paced fighting game where players take control of unique gladiators, mastering combos and strategies to conquer their opponents in the arena. With an innovative combo system and a focus on scalability, UMG challenges players to create seamless combat sequences while maintaining fluid gameplay.
 
 ## Making of – Ultimate Martial Gladiators:
